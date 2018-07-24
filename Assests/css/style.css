@@ -1,0 +1,302 @@
+/* root css */
+:root {
+--header-text: #f1f1f1;
+}
+
+.section-wrapper {
+    position: relative;
+    padding: 50px 30px;
+    clear: both;
+
+}
+
+.back-to-top {
+    background: none;
+    margin: 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    color: yellow;
+  }
+  .back-to-top i {
+    font-size: 60px;
+  }
+/* Bootstrap customize css */
+.navbar-brand {
+    height: 80px;
+  }
+  
+.nav >li >a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+}
+.navbar-toggle {
+    padding: 10px;
+    margin: 25px 15px 25px 0;
+}
+
+/* header - navigation css */
+#header_navigation {
+    padding: 10px 0 5px;
+    background-color: rgb(0, 0, 255);
+    color: var(--header-text,#f1f1f1);
+    position: relative;
+    font-family: "Raleway", sans-serif
+}
+    .header-navigation_top {
+        font-family: "Raleway", sans-serif;    
+    }
+
+        .header-top_left {
+            word-spacing: 2px;
+            line-height: 2;
+        }
+            .header-container {
+                margin-right: 15px;
+                font-size: 1em;
+                color: var(--header-text);
+                font-weight: 600;
+            }
+
+            .header-container:nth-child(2) {
+                margin-left: 15px;
+                margin-right: 5px;
+            }
+
+        .header-top_right {
+        }
+            .header-top_right ul {
+                float: right;
+            }
+
+            .header-top_right ul li{
+                list-style: none;
+                display: inline-block;
+                padding-left: 5px;
+            }
+
+            .header-top_right ul li a{
+                color: var(--header-text);
+                transition: 1s all ease-in-out;
+            }
+
+            .header-top_right ul li a:hover {
+                color: yellow;
+            }
+
+/* css for carousel  */
+#carousel-container {
+    margin-top: -20px;
+    font-family: "Raleway", sans-serif;
+}
+
+/* css for application link download */
+.phone-camera {
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    /* top: -10%; */
+    z-index: 1000;
+    margin-top: 15px;
+    left: 25%;
+}
+
+.phone-divider {
+    border-radius: 30px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 20px;
+    width: 35%;
+    /* top: -10%; */
+    z-index: 1000;
+    margin-top: 20px;
+    left: 35%;
+}
+
+.phone-container {
+    width: 100%;
+    height: 50.188em;
+    background-color: #00d6d6;
+    border-radius: 21px;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.phone-container:before {
+    position: absolute;
+    top: 8%;
+    right: 4%;
+    bottom: 12%;
+    left: 4%;
+    content: "";
+    background-color: #f1f1f1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+
+.phone-container_shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.7);
+}
+
+.phone-button {
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 10%;
+    width: 15%;
+    /* top: -10%; */
+    z-index: 1000;
+    margin-top: -75px;
+    left: 43%;
+}
+
+
+.aligner-container {
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    margin-left: 10%;
+    padding-top: 15%;
+}
+
+.download-header {
+    position: relative;
+    /* top: 23.5%; */
+    /* left: 11.7%; */
+    font-family: "Gotham Rounded", sans-serif;
+    font-weight: 500;
+    /* font-size: 4vw; */
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+    color: #606060;
+    line-height: 1.2;
+}
+
+.download-fontbig {
+    font-size: 3.3em;
+    word-spacing: 0.1em;
+}
+
+.download-container_service {
+    margin-top: 30px;
+}
+
+.download-service_stacked {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 15px;
+    text-indent: 10%;
+}
+
+.download-service_stacked > li {
+    position: relative;
+    display: block;
+}
+
+.download-service_stacked > li > a {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 1.3em;
+    color: #606060;
+}
+
+.btn-container-download {
+    position: relative;
+    margin-top: 10%;
+}
+
+.btn-apple {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30.50%;
+    height: auto;
+    
+}
+.btn-google {
+    position: absolute;
+    top: 0;
+    left: 33.19%;
+    width: 30.50%;
+    height: auto;
+}
+
+.img-flex {
+    /* -ms-transform: matrix(0.586,0.8,-0.8,0.586,40,40); 
+    -webkit-transform: matrix(0.586,0.8,-0.8,0.586,40,40);
+    transform: matrix(0.990,-0.2,0.2,0.990,10,10); */
+    height: 100vh;
+    width: 100vh;
+    margin: 0 auto;
+}
+
+
+/* link section css */
+#link-section {
+    background: url('');
+}
+
+  .link-shadow {
+        box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+  }
+
+  .link-box {
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+  }
+  .link-box_top {
+      height: 225px;
+      width: 100%;
+      display: block;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .link-box_body {
+      padding: 1.25rem;
+  }
+
+    .link-body_title {
+        font-weight: 600;
+        font-family: "Raleway", sans-serif;
+        font-size: 1.1em;
+        line-height: 1.2;
+    }
+
+    .link-body_workd {
+        font-weight: 400;
+        font-family: "Raleway",sans-serif;
+        font-size:0.9em;
+    }
+
+/* news sections css */
+/* #news-section {
+
+} */
+
