@@ -11,6 +11,9 @@
 	-Marc Lim
 	-Gabriel Pascual
 	-Adrian Changco
-
+    -Jim Carlos Agluba
+	-Jayar Borja
+	-Dado Corpuz
+	
   
 *Insert description here*  
